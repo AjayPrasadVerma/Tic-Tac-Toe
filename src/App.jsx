@@ -86,6 +86,7 @@ function App() {
         <GameBoard onSelectSquare={handleSelectSquare} board={gameBoard} />
       </div>
       <Log truns={gameTurns} />
+      <p className="footer">Developed By : Ajay Prasad Verma</p>
     </main>
   );
 }
